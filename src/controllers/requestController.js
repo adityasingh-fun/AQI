@@ -12,9 +12,13 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const onlyAlphabetsRegex = /^[a-zA-Z\s]+$/;
 
 // specifying the path of csv file
-const csvFilePath = "C:\\Users\\lenovo\\Downloads\\sandy69.csv";
+const csvFilePath = "C:\\Users\\HP\\Downloads\\sandy83.csv";
 
-const apiKey = '3867a440cd664d9f870fbadab4509ad4';
+// const apiKey = '3867a440cd664d9f870fbadab4509ad4';
+// const apiKey = '54c89c0714364c86a668eefe81d9bba1';
+// const apiKey = '4be0afd943ab44388c12a28b11b3fc3b';
+// const apiKey = 'e323bf3e57b54cb7822ff59240428a4d';
+const apiKey = '6783f0089e834abe8703d00fd75022a9';
 // const apiKey = '8b18ed393f034c419df8318dd4b3f421';
 // const apiKey = 'b8cb2f9434124ca5ad54b6bd1861d624';
 // const apiKey = '263a61fbbebc414a8ef4d5a748708433';
@@ -568,7 +572,7 @@ const testerfunction = async function (req, res) {
 
         // writing data in CSV file
         const csvWriter = createCsvWriter({
-            path: "C:\\Users\\lenovo\\Downloads\\mandy69.csv",
+            path: "C:\\Users\\HP\\Downloads\\mandy83.csv",
             header: [
                 { id: "uid", title: "uid" },
                 { id: "locationName", title: "locationName" },
